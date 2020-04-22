@@ -1,4 +1,13 @@
 function [M] = ULR(pulseE, M, sceneType, Z, myScale, spFreq, oceanClass, reflect, G)
+% ====Author==================================================== 
+% Thomas Morris, Summer 2014 - UPC Barcelona
+% This document is part of a Master's Thesis Project 
+% that largely followed the instruction given in these texts: 
+% "Direct-Detection LADAR Systems" by Richmond and Cain
+% "Ocean Sensing and Monitoring" by Hou
+% This work is being published for non-commercial, academic uses only. 
+% There is no warranty for this software.
+
 % ====Description===============================================
 % ULR is short for Underwater LADAR Radiometry.  This is a function that
 % calculates the power distribution of a single pulse of light
@@ -29,7 +38,7 @@ function [M] = ULR(pulseE, M, sceneType, Z, myScale, spFreq, oceanClass, reflect
 
 %% ====Code======================================================
 
-n_h2o = 1.33          % Index of refraction of water
+n_h2o = 1.33          % Real part of Index of refraction of water
 
 %====Spatial Distribution=========================
 w_o=.009    % Beam Waist[m]

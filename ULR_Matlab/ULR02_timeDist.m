@@ -1,4 +1,12 @@
 function [Rmin, minT, Rmax, maxT, deltat, t, E_t, P_t, pulseSig, tDim, range, Sigma_w, preBuff, Z] = ULR02_timeDist(pulseE, distant_array, myDim, Z, myScale, n_h2o)
+% ====Author==================================================== 
+% Thomas Morris, Summer 2014 - UPC Barcelona
+% This document is part of a Master's Thesis Project 
+% that largely followed the instruction given in these texts: 
+% "Direct-Detection LADAR Systems" by Richmond and Cain
+% "Ocean Sensing and Monitoring" by Hou
+% This work is being published for non-commercial, academic uses only. 
+% There is no warranty for this software.
 % ==================Description==================
 % P_t represents the total spatial/temporal distribution of the laser pulse
 % energy. preBuff is an important variable that ensures the DFT is windowed

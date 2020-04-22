@@ -1,4 +1,12 @@
 function [Pbk, N_dark, N_b, N_back] = noise_background(N, S_irr, delta_lam, dA, rho_t, ap_diameter, Z, i_dark,deltat, quantum_eff, tau_atm, tau_opt, h, v)
+% ====Author==================================================== 
+% Thomas Morris, Summer 2014 - UPC Barcelona
+% This document is part of a Master's Thesis Project 
+% that largely followed the instruction given in these texts: 
+% "Direct-Detection LADAR Systems" by Richmond and Cain
+% "Ocean Sensing and Monitoring" by Hou
+% This work is being published for non-commercial, academic uses only. 
+% There is no warranty for this software.
 % ==================Description==================
 % This function calculates the amount of noise that will be added to a
 % signal due to the photodetector technical specifications and the solar

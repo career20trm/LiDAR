@@ -1,4 +1,12 @@
 function [Q_n_sq , N_thermal] = noise_thermal(T, C, N)
+% ====Author==================================================== 
+% Thomas Morris, Summer 2014 - UPC Barcelona
+% This document is part of a Master's Thesis Project 
+% that largely followed the instruction given in these texts: 
+% "Direct-Detection LADAR Systems" by Richmond and Cain
+% "Ocean Sensing and Monitoring" by Hou
+% This work is being published for non-commercial, academic uses only. 
+% There is no warranty for this software.
 % ==================Description==================
 % This function calculates the amount of thermal noise that will be added
 % to a signal due to heat in the detector.

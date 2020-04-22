@@ -1,4 +1,12 @@
 function [T_p, T_p_x, T_p_y, T_p_z] = ULR04_dirac(Rmin, target_area, rho_t, myDim, t, range, dxx, n_h2o)
+% ====Author==================================================== 
+% Thomas Morris, Summer 2014 - UPC Barcelona
+% This document is part of a Master's Thesis Project 
+% that largely followed the instruction given in these texts: 
+% "Direct-Detection LADAR Systems" by Richmond and Cain
+% "Ocean Sensing and Monitoring" by Hou
+% This work is being published for non-commercial, academic uses only. 
+% There is no warranty for this software.
 % ==================Description==================
 % The output, T_p, is known as the target profile for LADAR.  It is a dirac
 % that is created for use in the convolution of the laser pulse energy with

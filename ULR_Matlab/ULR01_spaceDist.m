@@ -1,4 +1,12 @@
 function [stdNBeam, dx, xNBeam, beam, figBeam, sz, stdFBeam, dxx, xFBeam, figDisArr, distant_array, myDim] = ULR01_spaceDist(w_o, Z, lam, zoom, msSTD)
+% ====Author==================================================== 
+% Thomas Morris, Summer 2014 - UPC Barcelona
+% This document is part of a Master's Thesis Project 
+% that largely followed the instruction given in these texts: 
+% "Direct-Detection LADAR Systems" by Richmond and Cain
+% "Ocean Sensing and Monitoring" by Hou
+% This work is being published for non-commercial, academic uses only. 
+% There is no warranty for this software.
 % ==================Description==================
 % This function is for determining the spatial energy distribution of the
 % laser beam.  The main output is the distant_array, which represents the

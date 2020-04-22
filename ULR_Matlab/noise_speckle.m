@@ -1,4 +1,12 @@
 function [N_speckle, errorSpk] = noise_speckle(M, N)
+% ====Author==================================================== 
+% Thomas Morris, Summer 2014 - UPC Barcelona
+% This document is part of a Master's Thesis Project 
+% that largely followed the instruction given in these texts: 
+% "Direct-Detection LADAR Systems" by Richmond and Cain
+% "Ocean Sensing and Monitoring" by Hou
+% This work is being published for non-commercial, academic uses only. 
+% There is no warranty for this software.
 % ==================Description==================
 % This function calculates the amount of noise that will be added to a
 % signal due to speckle from laser coherence. M = 1 is coherent light.
