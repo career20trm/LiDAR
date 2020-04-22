@@ -14,6 +14,12 @@ Radiometric simulation of LADAR imaging for underwater environments
 This software was built with Matlab R2013a Student Edition 
 running on a 2014 Macbook Pro with High Sierra OS 10.13.1
 
-To begin using, point your Matlab root to the /ULR_Matlab folder.  Call the function and follow the directions given in the ULR.m file.  My Master's thesis and presentation documents can be found in the root folder of the repository.  These documents validate the calculations that are taking place with a comparison to the analytical results.   There are also some mp4 videos that demonstrate the expected signals. The videos are automatically created when executing the code.
+To begin using, point your Matlab root to the /ULR_Matlab folder.  Call the 
+function and follow the directions given in the ULR.m file.  My Master's thesis 
+and presentation documents can be found in the root folder of the repository.  
+These documents validate the calculations that are taking place with a 
+comparison to the analytical results.   There are also some mp4 videos 
+that demonstrate the expected signals. The videos are automatically created 
+when executing the code.
 
 Enjoy!
